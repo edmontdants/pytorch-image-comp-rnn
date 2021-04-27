@@ -1,7 +1,7 @@
 # Full Resolution Image Compression with Recurrent Neural Networks
 [ArXiv:1608.05148](https://arxiv.org/abs/1608.05148)
 
-#Check my repo here for the original Tensorflow version deployed and created by Google Researcher Toderici with Deployed Colab
+## Check my repo here for the original Tensorflow version deployed and created by Google Researcher Toderici with Deployed Colab
 [RNN LSTM Tensorflow Hybrid Model Residual GRU & ResNet Toderici CVPR17](https://github.com/edmontdants/RNN-LSTM-GRU_Tensorflow-Hybrid-Model-Residual-GRU-ResNet-Toderici2017-CVPR)
 
 ## Requirements
