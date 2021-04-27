@@ -2,7 +2,7 @@
 [ArXiv:1608.05148](https://arxiv.org/abs/1608.05148)
 
 ## Check my repo here for the original Tensorflow version deployed and created by Google Researcher Toderici
-https://github.com/edmontdants/RNN-LSTM-GRU_Tensorflow-Hybrid-Model-Residual-GRU-ResNet-Toderici2017-CVPR
+[RNN LSTM Tensorflow Hybrid Model Residual GRU & ResNet Toderici CVPR17](https://github.com/edmontdants/RNN-LSTM-GRU_Tensorflow-Hybrid-Model-Residual-GRU-ResNet-Toderici2017-CVPR)
 
 ## Requirements
 - PyTorch 0.2.0
