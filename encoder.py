@@ -9,7 +9,7 @@ import argparse
 
 import numpy as np
 from imageio import imread
-#from scipy.misc import imread, imresize, imsave
+#from scipy.misc import imread
 #from skimage import io, color, data
 #from PIL import Image
 
