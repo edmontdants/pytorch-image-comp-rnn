@@ -8,7 +8,7 @@ Created on Tue Apr 27 08:51:44 2021
 import argparse
 
 import numpy as np
-from imageio import imread
+from imageio import imread, imsave
 #from scipy.misc import imread, imresize, imsave
 #from skimage import io, color, data
 #from PIL import Image
