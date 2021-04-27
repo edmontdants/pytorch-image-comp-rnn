@@ -9,7 +9,10 @@ import os
 import argparse
 
 import numpy as np
+from imageio import imread, imsave
 #from scipy.misc import imread, imresize, imsave
+#from skimage import io, color, data
+#from PIL import Image
 
 import torch
 from torch.autograd import Variable
