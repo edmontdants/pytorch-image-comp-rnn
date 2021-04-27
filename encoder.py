@@ -8,10 +8,10 @@ Created on Tue Apr 27 08:51:44 2021
 import argparse
 
 import numpy as np
+from imageio import imread
 #from scipy.misc import imread, imresize, imsave
-from PIL import Image
-from skimage import io, color, data
-#-------------------------------------------
+#from skimage import io, color, data
+#from PIL import Image
 
 import torch
 from torch.autograd import Variable
@@ -29,9 +29,8 @@ parser.add_argument(
 args = parser.parse_args()
 
 #image = imread(args.input, mode='RGB')
-image = io.imread('example.png')
-image = color.rgba2rgb(image)
-#---------------------------------------
+image = imread('example.png', pilmode='RGB')
+
 image = torch.from_numpy(
     np.expand_dims(
         np.transpose(image.astype(np.float32) / 255.0, (2, 0, 1)), 0))
