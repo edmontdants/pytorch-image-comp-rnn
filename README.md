@@ -19,7 +19,7 @@ This will output binary codes saved in `.npz` format.
 
 ### Decode
 `
-python decoder.py --model checkpoint/encoder_epoch_00000066.pth --input /path/to/your/example.npz --cuda --output /path/to/output/folder
+python decoder.py --model checkpoint/decoder_epoch_00000066.pth --input /path/to/your/example.npz --cuda --output /path/to/output/folder
 `
 
 This will output images of different quality levels.
